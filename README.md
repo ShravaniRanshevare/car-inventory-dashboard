@@ -4,6 +4,7 @@ Excel data modelling project with Fact/Dim schema and interactive dashboard.
 **📊 Car Inventory Dashboard (Excel + Tableau)** 
 
 **📌 Overview** 
+
 This project analyzes a fictional car inventory dataset using a Fact/Dimension star schema, Excel-based data modelling, and an interactive Tableau dashboard. The goal is to demonstrate skills in data cleaning, modelling, KPI creation, and visual analytics. The final dashboard allows users to explore: Mileage patterns Warranty risk Driver behaviour Car age distribution Make/Model performance 
 
 *🧱 Data Model (Star Schema)* 
