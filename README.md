@@ -72,10 +72,12 @@ Chrysler vehicles show the highest average mileage. Most cars remain within warr
 
 
 **🎯 What I Learned** 
+
 How to design a clean star schema for analysis How to enrich fact tables using XLOOKUP How to build interactive dashboards in Tableau How to communicate insights visually How to structure a project for portfolio and GitHub 
 
 
 ***📁 Repository Structure***
+
  Code 
  
 ├── Car_Inventory_Dashboard.xlsx 
