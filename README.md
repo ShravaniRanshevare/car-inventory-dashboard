@@ -1,7 +1,7 @@
 # car-inventory-dashboard
 Excel data modelling project with Fact/Dim schema and interactive dashboard.
 **📊 Car Inventory Dashboard (Excel + Tableau)**
----
+␣␣
 *📌 Overview*
 This project analyzes a fictional car inventory dataset using a Fact/Dimension star schema, Excel-based data modelling, and an interactive Tableau dashboard.
 The goal is to demonstrate skills in data cleaning, modelling, KPI creation, and visual analytics.
@@ -11,7 +11,7 @@ Warranty risk
 Driver behaviour
 Car age distribution
 Make/Model performance
----
+␣␣
 *🧱 Data Model (Star Schema)*
 The dataset was modelled using a Fact table and multiple Dimension tables:
 Code
@@ -25,7 +25,7 @@ DimCar — CarKey — FactCarInventory — MakeModelKey — DimMakeModel
                      |
                  DimWarranty
 
----
+␣␣
 *Fact Table*
 FactCarInventory
 CarKey
@@ -41,7 +41,7 @@ DimDriver – Driver details
 DimMakeModel – Make & model attributes
 DimWarranty – Warranty limits
 DimCar – Car metadata
----
+␣␣
 *🧮 Key Calculations*
 Miles Per Year
 Code
@@ -53,7 +53,7 @@ Total Cars
 Average Miles
 % Exceeding Warranty
 Oldest Car Age
----
+␣␣
 ***📈 Dashboard Features (Tableau)***
 The interactive Tableau dashboard includes:
 1. Miles by Driver
@@ -71,7 +71,7 @@ Make
 Model
 Warranty Status
 Age
----
+␣␣
 *🛠 Tools Used*
 Excel
 Power Query
@@ -88,20 +88,20 @@ Screenshots:
 /screenshots/Dashboard.png
 /screenshots/AvgMilesbyMake.png
 /screenshots/FiltersinAction.png
----
+␣␣
 *💡 Insights*
-Chrysler vehicles show the highest average mileage.
-Most cars remain within warranty limits, but a notable minority exceed them.
-Driver “Smith” has the highest total mileage.
-Car ages cluster between 10–20 years, with a few older outliers.
----
+Chrysler vehicles show the highest average mileage.␣␣
+Most cars remain within warranty limits, but a notable minority exceed them.␣␣
+Driver “Smith” has the highest total mileage.␣␣
+Car ages cluster between 10–20 years, with a few older outliers.␣␣
+␣␣
 **🎯 What I Learned**
-How to design a clean star schema for analysis
-How to enrich fact tables using XLOOKUP
-How to build interactive dashboards in Tableau
-How to communicate insights visually
-How to structure a project for portfolio and GitHub
----
+How to design a clean star schema for analysis␣␣
+How to enrich fact tables using XLOOKUP␣␣
+How to build interactive dashboards in Tableau␣␣
+How to communicate insights visually␣␣
+How to structure a project for portfolio and GitHub␣␣
+␣␣
 ***📁 Repository Structure***
 Code
 ├── Car_Inventory_Dashboard.xlsx
